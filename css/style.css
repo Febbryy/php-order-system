@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header{
+    display: block;
+}
+
+.header1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40vh;
+}
+
+.logo_utama{
+    width: 45vh;
+}
+
+.logo_shop{
+    width:5vh;
+}
+
+.login_section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5vh;
+}
+
+.list_navigasi_header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE5E1;
+    gap:10vh;
+    height:6vh;
+}
+
+.list_navigasi{
+    list-style: none;
+}
+
+.img_kontent1{
+    width:197.9vh;
+    display: none;
+    position:absolute;
+    opacity: 0;
+}
+
+
+.img_kontent1.active{
+     opacity: 1;
+    display: block;
+    animation:fade 0.8s ease-in-out;
+    position: relative;
+}
+
+.kontainer_about{
+    width:197.9vh;
+    height: 70vh;
+    background-color: #E8EDF2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.deskripsi_about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:98vh;
+}
+
+.img_about{
+    width:110vh;
+    margin-right: 5vh;
+}
+
+@keyframes fade {
+    from { 
+        opacity: 0; 
+        transform: translateZ(100%); 
+        position: relative;
+    }
+    to { 
+        opacity: 1; 
+        transform: translateZ(0%);
+        position: relative; 
+    }
+}
+
+.btn_control{
+    display : flex;
+    gap : 50px;
+}
+
+.kontainer_kontent2{
+    flex-wrap: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EDF2;
+}
+.judul_keunggulan{
+    display: flex;
+    justify-content: center;
+}
+
+.kontainer_keunggulan{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.keunggulan_child{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation:appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+    animation-duration: 2s;
+}
+
+.gambar_kontent2{
+    height:25vh;
+}
+
+.logo_kontent2{
+    width: 20vh;
+}
+
+.deskripsi1{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_kontent5{
+    margin-top:20px;
+    width:197.9vh;
+}
+
+@keyframes appear {
+    from{
+        opacity:20%;
+        transform:translateX(-1000px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0px);
+    }
+    
+}
+
+.kontainer_kontent3{
+    width:200vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E8EDF2;
+}
+
+.kontainer_kontent_kategori{
+    display: flex;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    justify-content: space-evenly;
+    width:100%;
+    height:28vh;
+}
+
+.kontainer_img_kontent3{
+    height:35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_kontent3{
+    width:20vh;
+}
+
+.btn_kontent3{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+}
+
+.kontainer_kontent3_child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:25vh;
+    height:30vh;
+    animation:appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    animation-duration: 2s;
+}

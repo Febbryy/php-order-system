@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+       font-family:'Courier New', Courier, monospace;
+       background-color: #E8EDF2;
+}
+
+.kontainer_judul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px ;
+    height:10vh;
+    background-color: #EEE5E1;
+}
+
+.kontainer_form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    border-radius: 5vh;
+    width:100vh;
+    gap:10px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.kontainer_data{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kontainer_data_file {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.label_input {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+
+.wrapper_upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.input_file {
+    display: none !important;
+}
+
+
+.tombol_pilih {
+    background-color: #4A90E2; /* Warna biru */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.tombol_pilih:hover {
+    background-color: #357ABD;
+    transform: translateY(-1px);
+}
+
+
+.teks_status {
+    font-size: 14px;
+    color: #777777;
+    font-style: italic;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.input_form{
+    margin-bottom: 8px;
+    border-radius: 5vh;
+    width:50vh;
+    padding-left: 2vh;
+    height: 6vh;
+}
+
+.button_back_home{
+    border: 1px solid;
+    border-radius: 3vh;
+    width: 10vh;
+    height: 5vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.link_back{
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listpembayaran{
+    list-style: none;
+}

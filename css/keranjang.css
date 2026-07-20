@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #E8EDF2;
+}
+
+.logo_utama{
+    width: 45vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE5E1;
+}
+
+.judul1{
+    background-color: #c8beba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card{
+    border:1px solid;
+    border-radius: 5vh;
+    width:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    padding: 20px;
+
+}
+
+.product-grid{
+    display: flex;
+    justify-content: center;
+    gap:10vh;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.img_produk_kemeja{
+    width: 40vh;
+    margin-top: 10px;
+}
+
+.img_produk_kaos{
+    width: 40vh;
+    margin-top: 10px;
+}
+
+.img_produk_hoodie{
+    width: 40vh;
+    margin-top: 10px;
+}
+
+.button_back_home{
+    border: 1px solid;
+    border-radius: 3vh;
+    width: 10vh;
+    height: 5vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.link_back{
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
